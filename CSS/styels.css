@@ -13,8 +13,8 @@ body {
 .header {
     background-color: rgb(26, 106, 145);
     width: 100vw;
-    height: 100;
-    display: list-item
+    height: 60px;
+    /* position: fixed; */
 }
 
 .dropbtn {
@@ -28,9 +28,9 @@ body {
 
 
 .dropdown {
-    position: static;
+    position: absolute;
     display: flex;
-    justify-content: flex-end;
+    margin-left: 20px;
 }
 
 .dropdown-content {
@@ -115,8 +115,87 @@ nav ul {
     right: 35vw;
     background-color: rgba(0, 0, 0, 0);
     color: rgb(44, 44, 44);
-    padding-left: 100px;
+    padding-left: 20px;
     padding-right: 100px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 50px;
+    font-size: 80px;
+}
+
+.mainfront {
+    width: 100vw;
+    height: 100vw;
+    background-color: #ddd;
+}
+
+.mainfront>img {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+}
+
+
+/* -- FORM CODE CSS-- */
+form {
+    margin-top: 20rem;
+    width: 100%;
+    display: flex;
+    background-color: chocolate;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.EVC__Form-Container__Left {
+    width: 50%;
+}
+
+.EVC__Form-Container__Left h2 {
+    text-align: center;
+    font-size: 4rem;
+    color: #000;
+}
+
+.EVC__Form-Container__Left #FirstName,
+.EVC__Form-Container__Left #LastName,
+.EVC__Form-Container__Left #email,
+.EVC__Form-Container__Left #YearLevel {
+    padding: 1rem;
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px rgb(255, 0, 0) solid;
+    margin-top: 0rem;
+    height: 1.5rem;
+    border-radius: 3px;
+    /* background-color: transparent; */
+    color: rgb(255, 0, 0);
+}
+
+.EVC__Form-Container__Left #FirstName::placeholder,
+.EVC__Form-Container__Left #LastName::placeholder,
+.EVC__Form-Container__Left #email::placeholder,
+.EVC__Form-Container__Left #YearLevel::placeholder {
+    color: rgb(255, 0, 0);
+}
+
+.EVC__Form-Container__Left #submit {
+    width: 80%;
+    height: 2rem;
+    color: #000;
+    border: 2px #000 solid;
+    margin-left: 10%;
+    margin-top: 1rem;
+    transition: all 0.3s ease 0s;
+}
+
+.EVC__Form-Container__Left #submit:hover {
+    opacity: 0.5;
+    background-color: azure;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
 }

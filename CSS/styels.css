@@ -11,14 +11,14 @@ body {
 
 
 .header {
-    background-color: #a2a2a2;
+    background-color: rgb(26, 106, 145);
     width: 100vw;
-    height: 2px;
+    height: 100;
     display: list-item
 }
 
 .dropbtn {
-    background-color: #0000006f;
+    background-color: #00000000;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -30,6 +30,7 @@ body {
 .dropdown {
     position: static;
     display: flex;
+    justify-content: flex-end;
 }
 
 .dropdown-content {
@@ -41,11 +42,17 @@ body {
     z-index: 1;
 }
 
+.dropdown-content ul li {
+    list-style-type: none;
+    list-style: none;
+}
+
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    list-style-type: none;
 }
 
 .dropdown-content a:hover {
@@ -68,11 +75,12 @@ nav ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #a2a2a2;
+    background-color: rgb(26, 106, 145);
     width: 100vw;
     height: 298px;
 
 }
+
 
 .heading>h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -88,19 +96,27 @@ nav ul {
     width: 100vw;
 }
 
-.front>img {
-    height: auto;
-    width: auto;
 
+
+.frontpage {
+    position: absolute;
 }
 
-.insideimage {
-    background-color: aqua;
-    width: 50vw;
-    height: 200px;
+.frontpage>img {
+    max-height: 800px;
+    width: 100vw;
 }
 
-.insideimage>p {
+
+.text {
+    position: absolute;
+    align-items: flex;
+    top: 50px;
+    right: 35vw;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(44, 44, 44);
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 50px;
-    font-family: 'Courier New', Courier, monospace;
 }

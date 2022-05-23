@@ -72,6 +72,7 @@ nav ul {
     list-style-type: none;
 }
 
+/* push heading to the right! */
 .heading {
     display: flex;
     align-items: center;
@@ -79,6 +80,7 @@ nav ul {
     background-color: rgb(26, 106, 145);
     width: 100vw;
     height: 298px;
+    padding: 50px;
 
 }
 
@@ -122,8 +124,9 @@ nav ul {
 }
 
 .mainfront {
-    width: 100vw;
-    height: 100vw;
+    max-width: 100%;
+    height: 20vw;
+    padding: 30px;
     background-color: #ddd;
     display: flex;
     justify-content: space-evenly;
@@ -131,8 +134,8 @@ nav ul {
 }
 
 .mainfront>img {
-    max-width: 45%;
-    max-height: 30%;
+    max-width: 35%;
+    max-height: 90%;
 }
 
 .textbox {
@@ -164,12 +167,39 @@ nav ul {
     padding: 10px;
 }
 
+/* Links to wrap off page */
+
+.links {
+    width: 100%;
+    height: 100%;
+    background-color: #ddd;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: auto;
+    width: auto;
+}
 
 
+.firstlink {
+    width: 30%;
+    height: 30%;
+}
+
+
+.secondlink {
+    width: 30%;
+    height: 30%;
+}
+
+
+.thirdlink {
+    width: 30%;
+    height: 30%;
+}
 
 /* FOOTER */
 form {
-    margin-top: 20rem;
     width: 100%;
     display: flex;
     background-color: chocolate;

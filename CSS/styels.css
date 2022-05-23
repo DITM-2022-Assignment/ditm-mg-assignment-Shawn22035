@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
 }
 
 body {
@@ -9,7 +10,7 @@ body {
     padding: 0px;
 }
 
-
+/* Header or Navigation stuff */
 .header {
     background-color: rgb(26, 106, 145);
     width: 100vw;
@@ -87,6 +88,7 @@ nav ul {
     font-size: 100px;
 }
 
+/* Getting to front page stuff */
 .front {
     display: flex;
     justify-content: center;
@@ -98,12 +100,10 @@ nav ul {
 
 
 
-.frontpage {
-    position: absolute;
-}
+.frontpage {}
 
 .frontpage>img {
-    max-height: 800px;
+    max-height: 100%;
     width: 100vw;
 }
 
@@ -125,20 +125,49 @@ nav ul {
     width: 100vw;
     height: 100vw;
     background-color: #ddd;
+    display: flex;
+    justify-content: space-evenly;
+
 }
 
 .mainfront>img {
-    max-width: 500px;
-    max-height: 500px;
+    max-width: 45%;
+    max-height: 30%;
 }
 
-h2 {
-    font-family: 'Courier New', Courier, monospace;
+.textbox {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: rgba(0, 0, 0, 0);
+    height: 10%;
+    width: 45%;
+
+}
+
+.textbox a {
     font-size: xx-large;
+    text-decoration: solid;
+    color: #000;
+}
+
+.textbox a:hover {
+    text-decoration: underline;
+    transition: 00.3s;
+    color: blue;
 }
 
 
-/* -- FORM CODE CSS-- */
+.textbox>p {
+    padding: 10px;
+}
+
+
+
+
+/* FOOTER */
 form {
     margin-top: 20rem;
     width: 100%;

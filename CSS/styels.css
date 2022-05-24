@@ -75,6 +75,7 @@ nav ul {
     list-style-type: none;
 }
 
+/* INDEX PAGE WORK! */
 /* push heading to the right! */
 .heading {
     display: flex;
@@ -134,7 +135,7 @@ nav ul {
     max-width: 100%;
     height: 20vw;
     padding: 20px;
-    background-color: #ddd;
+    background-color: antiquewhite;
     display: flex;
     justify-content: space-evenly;
 
@@ -180,7 +181,7 @@ nav ul {
 .imagelinks {
     width: 100%;
     height: 100%;
-    background-color: #ddd;
+    background-color: antiquewhite;
     display: flex;
     align-items: stretch;
     justify-content: space-evenly;
@@ -209,7 +210,7 @@ nav ul {
 .linkage {
     width: 100%;
     height: 100%;
-    background-color: #ddd;
+    background-color: antiquewhite;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -227,15 +228,49 @@ nav ul {
     text-decoration: none;
 }
 
+.linkone a:hover {
+    color: blue;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.linktwo {
+    display: flex;
+    justify-content: center;
+    margin-right: 40px;
+}
+
+.linktwo a {
+    color: #000;
+    text-decoration: none;
+}
+
+.linktwo a:hover {
+    color: blue;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
 .linkthree {
     margin-right: 10%;
+}
+
+.linkthree a {
+    color: #000;
+    text-decoration: none;
+}
+
+.linkthree a:hover {
+    color: blue;
+    text-decoration: underline;
+    transition: 0.3s;
 }
 
 /* FOOTER */
 form {
     width: 100%;
     display: flex;
-    background-color: chocolate;
+    background-color: rgb(0, 0, 0);
     align-items: center;
     justify-content: center;
     padding-bottom: 100px;
@@ -248,7 +283,7 @@ form {
 .EVC__Form-Container__Left h2 {
     text-align: center;
     font-size: 4rem;
-    color: #000;
+    color: rgb(255, 255, 255);
 }
 
 .EVC__Form-Container__Left #FirstName,
@@ -260,26 +295,26 @@ form {
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom: 2px rgb(255, 0, 0) solid;
+    border-bottom: 2px rgb(0, 0, 0) solid;
     margin-top: 0rem;
     height: 1.5rem;
     border-radius: 3px;
     /* background-color: transparent; */
-    color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
 }
 
 .EVC__Form-Container__Left #FirstName::placeholder,
 .EVC__Form-Container__Left #LastName::placeholder,
 .EVC__Form-Container__Left #email::placeholder,
 .EVC__Form-Container__Left #YearLevel::placeholder {
-    color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
 }
 
 .EVC__Form-Container__Left #submit {
     width: 80%;
     height: 2rem;
-    color: #000;
-    border: 2px #000 solid;
+    color: rgb(0, 0, 0);
+    border: 2px rgb(0, 0, 0) solid;
     margin-left: 10%;
     margin-top: 1rem;
     transition: all 0.3s ease 0s;
@@ -287,7 +322,50 @@ form {
 
 .EVC__Form-Container__Left #submit:hover {
     opacity: 0.5;
-    background-color: azure;
+    background-color: rgb(142, 142, 142);
     cursor: pointer;
-    transition: all 0.3 ease 0s;
+    transition: all 0.1 ease 0s;
+}
+
+/* EFFECTS PAGE WORK! */
+
+.effectsfrontpage>h3 {
+    /* position: absolute; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100px;
+}
+
+.effectsmain {
+    display: flex;
+}
+
+.effectsmain>img {
+    width: 50%;
+    height: auto;
+    padding: 20px;
+}
+
+.effectsimageword {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.effectsimageword>h4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.long {
+    height: 2000px;
+    width: 50%;
+    background-color: gray;
 }

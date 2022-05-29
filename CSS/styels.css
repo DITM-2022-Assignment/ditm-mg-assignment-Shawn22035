@@ -342,19 +342,24 @@ form {
 
 .effectsmain {
     display: flex;
+    width: auto;
+    height: auto;
 }
 
 .effectsmain>img {
-    width: 48%;
+    width: 100%;
     height: auto;
-    padding: 20px;
+    padding: 0px;
 }
 
 .effectsimageword {
     display: flex;
-    justify-content: center;
+    position: absolute;
     flex-direction: column;
     align-items: center;
+    background-color: white;
+    right: 0%;
+    bottom: 0%;
 }
 
 .effectsimageword>h4 {
@@ -389,6 +394,36 @@ form {
     font-size: 100px;
 }
 
+
+/* second text */
+.effectssecond {
+    display: flex;
+}
+
+.effectssecond>img {
+    width: 48%;
+    height: auto;
+    padding: 20px;
+}
+
+.effectssecondimage {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.effectssecondimage>h5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* footer workings!!! */
+
 .genericfooter {
     width: 100%;
     height: 100px;
@@ -405,4 +440,71 @@ form {
     background-color: #bbb;
     height: 100px;
     width: 100px;
+    right: 0%;
+    position: absolute;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* FAQ TYpa Stuf */
+
+.faqhead {
+    width: 100vw;
+    height: 100px;
+    background-color: #000;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.faqhead>h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    color: white;
+}
+
+.faqpage {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(212, 74, 74);
+    width: 100vw;
+    height: 900px;
+    align-items: center;
+}
+
+.faqlinks {
+    /* background-color: black; */
+    width: 50%;
+    height: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.faqlink1 {
+    background-color: black;
+}
+
+.faqlink1 a>img {
+    height: auto;
+    width: 200px;
+}
+
+.faqlink2 a>img {
+    height: auto;
+    width: 200px;
+}
+
+.faqlink3 a>img {
+    height: auto;
+    width: 200px;
+}
+
+.mogus {
+    width: 100vw;
+    height: 100vw;
 }

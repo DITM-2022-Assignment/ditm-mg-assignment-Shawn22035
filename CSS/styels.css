@@ -18,14 +18,19 @@ body {
 }
 
 .dropbtn {
-    background-color: #00000064;
+    background-color: #2a282800;
+
     color: white;
     padding: 16px;
     font-size: 32px;
     border: none;
     text-decoration: solid;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
+.dropbtn>img {
+    width: 40px;
+    height: auto;
 }
 
 
@@ -449,32 +454,37 @@ form {
 /* FAQ TYpa Stuf */
 
 .faqhead {
-    width: 100vw;
+    width: 100%;
     height: 100px;
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0);
     justify-content: center;
     display: flex;
     align-items: center;
 }
 
+.faqwords {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+}
+
 .faqhead>h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 100px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .faqpage {
     display: flex;
     justify-content: space-evenly;
-    background-color: rgb(212, 74, 74);
-    width: 100vw;
-    height: 900px;
+    background-color: rgba(212, 74, 74, 0);
+    width: 100%;
+    height: 646px;
     align-items: center;
 }
 
 .faqlinks {
     /* background-color: black; */
-    width: 50%;
+    width: 95%;
     height: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
@@ -486,25 +496,36 @@ form {
 }
 
 .faqlink1 {
-    background-color: black;
+    /* background-color: black; */
 }
 
 .faqlink1 a>img {
     height: auto;
-    width: 200px;
+    width: 300px;
 }
 
 .faqlink2 a>img {
     height: auto;
-    width: 200px;
+    width: 300px;
 }
 
 .faqlink3 a>img {
     height: auto;
-    width: 200px;
+    width: 300px;
 }
 
+
+/* :))))) */
 .mogus {
+    width: 100vw;
+    height: 100vw;
+}
+
+.kill {
+    position: absolute;
+}
+
+.dead>img {
     width: 100vw;
     height: 100vw;
 }

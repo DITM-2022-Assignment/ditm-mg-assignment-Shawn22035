@@ -10,7 +10,7 @@ body {
     padding: 0px;
 }
 
-/* Header or Navigation stuff */
+/* Header, Navigation and Menu stuff */
 .header {
     display: flex;
     justify-content: flex-end;
@@ -18,7 +18,7 @@ body {
 }
 
 .dropbtn {
-    background-color: #2a282800;
+    background-color: #2a28285b;
 
     color: white;
     padding: 16px;
@@ -82,6 +82,7 @@ nav ul {
 
 /* INDEX PAGE WORK! */
 /* push heading to the right! */
+
 .heading {
     display: flex;
     align-items: center;
@@ -108,8 +109,6 @@ nav ul {
     height: 100%;
     width: 100%;
 }
-
-
 
 .frontpage {
     height: 100%;
@@ -276,7 +275,7 @@ nav ul {
     transition: 0.3s;
 }
 
-/* FOOTER */
+/* FOOTER
 form {
     width: 100%;
     display: flex;
@@ -310,7 +309,7 @@ form {
     height: 1.5rem;
     border-radius: 3px;
     /* background-color: transparent; */
-    color: rgb(0, 0, 0);
+color: rgb(0, 0, 0);
 }
 
 .EVC__Form-Container__Left #FirstName::placeholder,
@@ -337,7 +336,8 @@ form {
     transition: all 0.1 ease 0s;
 }
 
-/* EFFECTS PAGE WORK! */
+*/
+/* EFFECTS PAGE WORK */
 
 .effectsfrontpage>h3 {
     /* position: absolute; */
@@ -347,8 +347,6 @@ form {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 100px;
 }
-
-
 
 .effectsmain {
     display: flex;
@@ -405,7 +403,7 @@ form {
 }
 
 
-/* second text */
+/* second text for effects */
 .effectssecond {
     display: flex;
 }

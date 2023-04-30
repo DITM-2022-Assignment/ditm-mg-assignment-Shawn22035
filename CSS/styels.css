@@ -1,0 +1,652 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+}
+
+body {
+    background-color: antiquewhite;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Header, Navigation and Menu stuff */
+.header {
+    display: flex;
+    justify-content: flex-end;
+    /* position: fixed; */
+}
+
+.dropbtn {
+    background-color: #2a28285b;
+
+    color: white;
+    padding: 16px;
+    font-size: 32px;
+    border: none;
+    text-decoration: solid;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.dropbtn>img {
+    width: 40px;
+    height: auto;
+}
+
+
+.dropdown {
+    /* position fixed to keep button in one place
+     */
+    position: fixed;
+    display: flex;
+    /* margin-left: 20px; */
+    justify-content: flex-end;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    font-size: 20px;
+}
+
+.dropdown-content ul li {
+    list-style-type: none;
+    list-style: none;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    list-style-type: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+/* INDEX PAGE WORK! */
+/* push heading to the right! */
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(26, 106, 145);
+    width: 100vw;
+    height: 298px;
+    padding: 50px;
+
+}
+
+
+.heading>h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100px;
+}
+
+/* Getting to front page stuff */
+.front {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 0, 0);
+    height: 100%;
+    width: 100%;
+}
+
+.frontpage {
+    height: 100%;
+    width: 100%;
+}
+
+.frontpage>img {
+    height: 100%;
+    width: 100%;
+}
+
+
+.text {
+    position: absolute;
+    align-items: flex;
+    top: 50px;
+    right: 35vw;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(44, 44, 44);
+    padding-left: 20px;
+    padding-right: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 80px;
+}
+
+.mainfront {
+    margin-top: -5px;
+    max-width: 100%;
+    height: 20vw;
+    padding: 20px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.mainfront>img {
+    max-width: 35%;
+    max-height: 90%;
+
+}
+
+.mainfront p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+}
+
+.textbox {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: rgba(0, 0, 0, 0);
+    margin-left: 200px;
+    height: 30%;
+    width: 45%;
+
+}
+
+.textbox a {
+    font-size: xx-large;
+    text-decoration: solid;
+    color: #000;
+}
+
+.textbox a:hover {
+    text-decoration: underline;
+    transition: 00.3s;
+    color: blue;
+}
+
+
+.textbox>p {
+    padding: 10px;
+}
+
+/* Links to wrap off page */
+
+.imagelinks {
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    height: auto;
+    width: auto;
+}
+
+
+.firstlink {
+    max-width: 30%;
+    max-height: 30%;
+}
+
+
+.secondlink {
+    max-width: 30%;
+    max-height: 30%;
+}
+
+
+.thirdlink {
+    max-width: 30%;
+    max-height: 30%;
+}
+
+.linkage {
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100px;
+    color: #000;
+}
+
+.linkone {
+    margin-left: 10%;
+}
+
+.linkone a {
+    color: #000;
+    text-decoration: none;
+}
+
+.linkone a:hover {
+    color: blue;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.linktwo {
+    display: flex;
+    justify-content: center;
+    margin-right: 40px;
+}
+
+.linktwo a {
+    color: #000;
+    text-decoration: none;
+}
+
+.linktwo a:hover {
+    color: blue;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.linkthree {
+    margin-right: 10%;
+}
+
+.linkthree a {
+    color: #000;
+    text-decoration: none;
+}
+
+.linkthree a:hover {
+    color: blue;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+/* FOOTER
+form {
+    width: 100%;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.EVC__Form-Container__Left {
+    width: 50%;
+}
+
+.EVC__Form-Container__Left h2 {
+    text-align: center;
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+}
+
+.EVC__Form-Container__Left #FirstName,
+.EVC__Form-Container__Left #LastName,
+.EVC__Form-Container__Left #email,
+.EVC__Form-Container__Left #YearLevel {
+    padding: 1rem;
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px rgb(0, 0, 0) solid;
+    margin-top: 0rem;
+    height: 1.5rem;
+    border-radius: 3px;
+    /* background-color: transparent; */
+color: rgb(0, 0, 0);
+}
+
+.EVC__Form-Container__Left #FirstName::placeholder,
+.EVC__Form-Container__Left #LastName::placeholder,
+.EVC__Form-Container__Left #email::placeholder,
+.EVC__Form-Container__Left #YearLevel::placeholder {
+    color: rgb(0, 0, 0);
+}
+
+.EVC__Form-Container__Left #submit {
+    width: 80%;
+    height: 2rem;
+    color: rgb(0, 0, 0);
+    border: 2px rgb(0, 0, 0) solid;
+    margin-left: 10%;
+    margin-top: 1rem;
+    transition: all 0.3s ease 0s;
+}
+
+.EVC__Form-Container__Left #submit:hover {
+    opacity: 0.5;
+    background-color: rgb(142, 142, 142);
+    cursor: pointer;
+    transition: all 0.1 ease 0s;
+}
+
+*/
+/* EFFECTS PAGE WORK */
+
+.effectsfrontpage {
+    display: flex;
+}
+
+.effectsfronttext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100px;
+}
+
+.effectsmain {
+    display: flex;
+    width: auto;
+    height: auto;
+}
+
+.effectsmain>img {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+}
+
+.effectsimageword {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    right: 0%;
+    bottom: 0%;
+}
+
+.effectsfrontwords>h5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+
+.effectsfrontwords>img {
+    width: 48%;
+    padding: 20px;
+    height: 450px;
+    display: flex;
+    right: 0%;
+}
+
+.effectsfrontwords {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+}
+
+.effectsfrontwords>p {
+    width: 48%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    justify-content: center;
+}
+
+
+/* second text for effects */
+.effectssecond {
+    display: flex;
+}
+
+.effectssecond>img {
+    width: 48%;
+    height: 450px;
+    padding: 20px;
+}
+
+.effectssecondimage {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.effectssecondimage>p {
+    width: 48%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    justify-content: center;
+}
+
+/* Action Page Stuf */
+
+/* .actionheader {
+    display: flex;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    justify-content: center;
+    align-items: center;
+} */
+
+.actionheader>h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100px;
+}
+
+.actionfront {
+    width: 100%;
+}
+
+.actionfront>img {
+    width: 100%;
+    height: 50%;
+}
+
+.actionfronttext {
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    background-color: rgba(0, 0, 0, 0);
+    width: 400px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.actionfrontwords>img {
+    width: 48%;
+    padding: 20px;
+    height: 450px;
+    display: flex;
+    right: 0%;
+}
+
+.actionfrontwords {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+}
+
+.actionfrontwords>p {
+    width: 48%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.actionsecond {
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.actionsecond>img {
+    width: 48%;
+    height: 450px;
+    padding: 20px;
+}
+
+.actionssecondimage {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.actionssecondimage>h5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.actionssecondimage>ul {
+    margin-top: 30px;
+}
+
+/* FAQ TYpa Stuf */
+
+.faqhead {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.faqwords {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    padding: 100px;
+}
+
+.faqwords ul {
+    margin: 20px;
+}
+
+.faqhead>h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    color: rgb(0, 0, 0);
+}
+
+.faqpage {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(212, 74, 74, 0);
+    width: 100%;
+    height: 646px;
+    align-items: center;
+}
+
+.faqlinks {
+    /* background-color: black; */
+    width: 70%;
+    height: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.faqlink1 a>img {
+    height: auto;
+    width: 200px;
+}
+
+.faqlink2 a>img {
+    height: auto;
+    width: 200px;
+}
+
+.faqlink3 a>img {
+    height: auto;
+    width: 200px;
+}
+
+
+/* :))))) */
+.mogus {
+    width: 100vw;
+    height: 100vw;
+}
+
+.kill {
+    position: absolute;
+}
+
+.dead>img {
+    width: 100vw;
+    height: 100vw;
+}
+
+
+/* footer workings!!! */
+
+.genericfooter {
+    width: 100%;
+    height: 100px;
+    display: flex;
+
+    background-color: black;
+}
+
+.genericfooter>p {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 10px;
+    font-size: 80px;
+}
+
+.footing {
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    width: 100px;
+    right: 0%;
+    position: absolute;
+    justify-content: flex-end;
+    align-items: center;
+}
